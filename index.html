@@ -6,7 +6,7 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>JSSB LOGISTICS</title>
+    <title>Compass Responsive Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="templatemo">
@@ -32,11 +32,157 @@
     <!-- JavaScripts -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--[if lt IE 8]>
 	<div style=' clear: both; text-align:center; position: relative;'>
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
         </div>
     <![endif]-->
+<style>
+.main-header .logo h1 img{
+width:12rem!important;
+}
+@media only screen and (max-width: 761px) {
+    .main-header .logo h1 img{
+width:8rem!important;
+}
+.basic-card{
+    width: 100%;
+}
+}
+ /* support card css start from here */
+ .card-category-1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom:2rem;
+    background: #FFF;
+  }
+
+  .card-category-1 div {
+    display: inline-block;
+  }
+  
+  .card-category-1 > div:not(:last-child) {
+    /* margin: 10px 5px; */
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  /* Basic Card */
+  .basic-card {
+    position: relative;
+  
+    -webkit-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: .25rem;
+  }
+  
+  .basic-card .card-content {
+    padding: 5px;
+    display: flex;
+  }
+  
+  .basic-card .card-title {
+    font-size:3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #FC8000;
+  }
+  
+  .basic-card .card-text {
+    line-height: 1.6;
+    color: #677294;
+    font-size: 16px !important;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .basic-card .card-link {
+    padding: 25px;
+    width: -webkit-fill-available;
+  }
+  
+  .basic-card .card-link a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0px;
+  }
+  
+  .basic-card .card-link a:after {
+    top: 30px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 0;
+  
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+  
+  .basic-card .card-link a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .basic-card-aqua {
+    background:#FFF;
+  }
+  
+  .basic-card-aqua .card-content,
+  .basic-card .card-link a {
+    color: #fff;
+  }
+  
+  .basic-card-aqua .card-link {
+    border-top: 1px solid #82c1bb;
+  }
+  
+  .basic-card-aqua .card-link a:after {
+    background: #fff;
+  }
+
+  .info-caption{
+    padding-left: 20px;
+  }
+
+  .info-caption span {
+    color: #2c234d;
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: block;
+    font-weight: 600;
+  }
+
+  .basic-card {
+    --c: #fc8000;
+    /* the border color */
+    --b: 8px;
+    /* the border thickness*/
+    --g: 5px;
+    /* the gap on hover */
+  
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%, var(--c) 0;
+    background: conic-gradient(from 180deg at top var(--b) right var(--b),
+        var(--_g)) var(--_i, 200%) 0 /200% var(--_i, var(--b)) no-repeat,
+      conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0 var(--_i, 200%) / var(--_i, var(--b)) 200% no-repeat;
+    transition: 0.3s, background-position 0.3s 0.3s;
+    cursor: pointer;
+  }
+  
+  .basic-card:hover {
+    --_i: 100%;
+    transition: 0.3s, background-size 0.3s 0.3s;
+  }
+
+</style>
 </head>
 <body>
     
@@ -47,7 +193,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="left-header">
-                                <span><i class="fa fa-phone"></i>+91-9810664562</span>
+                                <span><i class="fa fa-phone"></i>+91-9654630143</span>
                                 <span><i class="fa fa-envelope"></i>jssblogistics@gmial.com</span>
                             </div> <!-- /.left-header -->
                         </div> <!-- /.col-md-6 -->
@@ -69,8 +215,8 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="logo">
-                                 <img src="images/JSSB-logo.png" alt="">
-                              <!--  <h1><a href="#" title="Dreri">Compass</a></h1>-->
+                                   <h1><img src="images/JSSB-logo.png" alt=""></h1>
+                            <!--<h1><a href="#" title="Dreri">JSSB Logistics</a></h1>-->
                             </div> <!-- /.logo -->
                         </div> <!-- /.col-md-4 -->
                         <div class="col-md-8 col-sm-8 col-xs-6">
@@ -94,7 +240,7 @@
                                 <li><a href="#portfolio">Portfolio</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><a href="http://www.facebook.com/templatemo" class="external">External</a></li>
+                               
                             </ul>
                         </div> <!-- /.menu -->
                     </div> <!-- /.responsive-menu -->
@@ -130,19 +276,22 @@
                 <h2>Our Services</h2>
                 <span></span>
             </div> <!-- /.title-section -->
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
+            <div class="row row-sm">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="service-item">
                         <div class="service-header">
                             <i class="fa fa-umbrella"></i>
-                            <h3>Freight Transportation</h3>
+                            <h3>Transportation</h3>
                         </div>
                         <div class="service-description">
-                           Provide domestic and international shipping services for various types of cargo, including trucking, air freight, ocean freight, and rail transport.
+                           We have the resources and expertise to move your goods efficiently and securely.
+Warehousing and Distribution: Our strategically located warehouses are equipped to handle your storage and distribution needs, ensuring inventory is managed effectively.
+Supply Chain Consulting: Our consultants work closely with you to identify opportunities for improvement, optimize processes, and drive cost savings
+.
                         </div>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="service-item">
                         <div class="service-header">
                             <i class="fa fa-desktop"></i>
@@ -153,7 +302,7 @@
                         </div>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="service-item">
                         <div class="service-header">
                             <i class="fa fa-cogs"></i>
@@ -164,7 +313,7 @@
                         </div>
                     </div> <!-- /.service-item -->
                 </div> <!-- /.col-md-3 -->
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="service-item">
                         <div class="service-header">
                             <i class="fa fa-heart"></i>
@@ -191,8 +340,8 @@
                         <img src="images/portfolio/item1.jpg" alt="Portfolio Item 1">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item1.jpg">Nulla non enim</a></h4>
-                                <span>Design</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item1.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -202,8 +351,8 @@
                         <img src="images/portfolio/item2.jpg" alt="Portfolio Item 2">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item2.jpg">Duis nec urna</a></h4>
-                                <span>Creative</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item2.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -213,8 +362,8 @@
                         <img src="images/portfolio/item3.jpg" alt="Portfolio Item 3">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item3.jpg">Etiam magna</a></h4>
-                                <span>Design</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item3.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -224,8 +373,8 @@
                         <img src="images/portfolio/item4.jpg" alt="Portfolio Item 4">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item4.jpg">Vivamus dignissim</a></h4>
-                                <span>Creative</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item4.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -237,8 +386,8 @@
                         <img src="images/portfolio/item5.jpg" alt="Portfolio Item 5">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item5.jpg">Fusce semper</a></h4>
-                                <span>HTML CSS</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item5.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -248,8 +397,8 @@
                         <img src="images/portfolio/item6.jpg" alt="Portfolio Item 6">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item6.jpg">Nunc ultrices</a></h4>
-                                <span>Mobile</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item6.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -259,8 +408,8 @@
                         <img src="images/portfolio/item7.jpg" alt="Portfolio Item 7">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item7.jpg">Fusce vehicula</a></h4>
-                                <span>HTML CSS</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item7.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -270,8 +419,8 @@
                         <img src="images/portfolio/item8.jpg" alt="Portfolio Item 8">
                         <div class="overlay">
                             <div class="inner">
-                                <h4><a data-rel="lightbox" href="images/portfolio/item8.jpg">Vivamus elementum</a></h4>
-                                <span>Mobile</span>
+                                <h4><a data-rel="lightbox" href="images/portfolio/item8.jpg"></a></h4>
+                                <span></span>
                             </div>
                         </div> <!-- /.overlay -->
                     </div> <!-- /.portfolio-thumb -->
@@ -320,113 +469,87 @@ At JSSB Logistics, we're not just logistics experts; we're your partners in succ
                     </ul>
                 </div> <!-- /.col-md-3 -->
             </div> <!-- /.row -->
-            <div class="row">
-                <div class="our-team">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="images/team/member-1.jpg" alt="Tracy">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                </div> <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Yogesh Kumar</h5>
-                                <span>Product Developer</span>
-                                <p></p>
-                            </div>
-                        </div> <!-- /.team-member -->
-                    </div> <!-- /.col-md-4 -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="images/team/member-2.jpg" alt="Mary">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                </div> <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Yogesh Kumar</h5>
-                                <span>Product Designer</span>
-                                <p></p>
-                            </div>
-                        </div> <!-- /.team-member -->
-                    </div> <!-- /.col-md-4 -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="images/team/member-3.jpg" alt="Julia">
-                                <div class="overlay">
-                                    <ul class="social">
-                                        <li><a href="#" class="fa fa-facebook"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                </div> <!-- /.overlay -->
-                            </div>
-                            <div class="inner-content">
-                                <h5>Yogesh Kumar</h5>
-                                <span>Product Manager</span>
-                                <p></p>
-                            </div>
-                        </div> <!-- /.team-member -->
-                    </div> <!-- /.col-md-4 -->
-                </div> <!-- /.our-team -->
+
+
+
+<div class="row">
+                <div class="col-md-8">
+                    <h4 class="widget-title">Our Mission</h4>
+      
+
+ <ul class="progess-bars">
+                        <li>
+                            <p><b style="font-weight:bold">Expertise You Can Trust:</b> Our team of seasoned professionals brings a wealth of experience to every project. From route optimization to warehousing strategies, we have the knowledge to navigate the complexities of modern logistics.
+</p>
+                        </li>                      
+                        <li>
+                            <p><b style="font-weight:bold">Reliability at Every Turn:</b> We understand that time is of the essence in logistics. That’s why we go above and beyond to ensure your shipments arrive safely and on schedule, every time</p>
+                        </li>
+                        <li>
+                           <p><b style="font-weight:bold">Tailored Solutions:</b> One size does not fit all in logistics. We take the time to understand your unique needs and develop customized strategies that optimize your supply chain.</P>
+                        </li>
+<li>
+                           <p><b style="font-weight:bold">Cutting-Edge Technology</b>: We leverage the latest technology to streamline processes, provide real-time tracking, and enhance visibility into your supply chain.</P>
+                        </li>
+                    </ul>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-4 our-skills">
+                    <h4 class="widget-title">Why Choose JSSB Logistics</h4>
+                                 <p>At JSSB Logistics our mission is to revolutionize the way goods are moved, managed, and delivered. We strive to provide seamless logistics solutions that empower businesses to thrive in an ever-evolving global market.
+</p>
+                </div> <!-- /.col-md-3 -->
             </div> <!-- /.row -->
+
         </div> <!-- /.container -->
     </div> <!-- /#about -->
 
     <div id="contact" class="section-cotent">
-        <div class="container">
+        <div class="container-fluid">
             <div class="title-section text-center">
                 <h2>Contact Us</h2>
                 <span></span>
-            </div> <!-- /.title-section -->
-            <!--<div class="row">
-                <div class="col-md-7 col-sm-6">
-                    <h4 class="widget-title">Send a message to us</h4>
-                    <div class="contact-form">
-                        <p class="full-row">
-                            <label for="name-id">Your Name:</label>
-                            <input type="text" id="name-id" name="name-id">
-                        </p>
-                        <p class="full-row">
-                            <label for="email-id">Email:</label>
-                            <input type="text" id="email-id" name="email-id">
-                        </p>
-                        <p class="full-row">
-                            <label for="subject-id">Subject:</label>
-                            <input type="text" id="subject-id" name="subject-id">
-                        </p>
-                        <p class="full-row">
-                            <label for="message">Message:</label>
-                            <textarea name="message" id="message" rows="6"></textarea>
-                        </p>
-                        <input class="mainBtn" type="submit" name="" value="Send Message">
+            </div> 
+            <div class="row row-sm">
+                <div class="col-md-6">
+                    <div class="row row-sm card-category-1" style="display: grid; margin-left:10px;">
+                        <div class="col-md-12 col-sm-12 basic-card basic-card-aqua">
+                            <div class="card-content">
+                                <span class="card-title"><i class="fa fa-home"></i></span>
+                                <div class="info-caption">
+                                  <p class="card-text">Address</p>
+                                  <span>Farrukhnagar - Gurugram Haryana ,HR-122506</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 basic-card basic-card-aqua">
+                          <div class="card-content">
+                              <span class="card-title"><i class="fa fa-phone"></i></span>
+                              <div class="info-caption">
+                                <p class="card-text">Call Us Anytime</p>
+                                <span>+91-9654630143</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12 col-sm-12 basic-card basic-card-aqua">
+                        <div class="card-content">
+                            <span class="card-title"><i class="fa fa-envelope"></i></span>
+                            <div class="info-caption">
+                              <p class="card-text">Contact Mail</p>
+                              <span>jssblogistics@gmail.com</span>
+                            </div>
+                        </div>
                     </div>
-                </div> -->
- <!-- /.col-md-3 -->
-                <div >
+                    </div>
+                 </div>
+                 <div class="col-md-6">
                     <h4 class="widget-title">Our location</h4>
                     <div class="map-holder">
                         <div class="google-map-canvas" id="map-canvas" style="height: 250px;">
                         </div>
-                    </div> <!-- /.map-holder -->
-                    <div class="contact-info">
-                        <p>Feel free to replace the placeholders in square brackets with the actual contact information for JSSB Logistics. Additionally, consider adding any other relevant contact details or platforms your company uses for communication!</p>
-                        <span><i class="fa fa-home"></i>A101 Maruti Kunj,Sector-3,Farrukhnagar,Distt. Gurgram,HR-122506</span>
-                        <span><i class="fa fa-phone"></i>+91-9810664562</span>
-                        <span><i class="fa fa-envelope"></i>jssblogistics@gmail.com</span>
-                    </div>
-                </div> <!-- /.col-md-3 -->
+                    </div> 
+                    <!-- /.map-holder -->
+                </div>
+            </div>
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /#contact -->
